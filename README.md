@@ -47,11 +47,31 @@ Done<br>
 ```sh
 docker pull node:18.17.0-alpine
 ```
+<img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/d1c599ca-3ae3-4b07-9725-1c3f15139038" width="800"/>
+
+
 
 ## Download Nodejs Hello World App(app.js)
 <ul>
   <li>Download Download app.js from https://gist.github.com/berdoezt/e51718982926f0caa3fcd8ed45111430 and move new folder</li>
-  <li>Create file with name Dockerfile, edit file with this code, and save at same folder with app.js</li>
+  <li>Create file with name Dockerfile, edit file with this code, and save at same folder with app.js<br>
+    <img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/97e9874f-5f4b-4239-8d98-b7e9f5af5aaa"/><br>
+  <img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/210a8e62-8aa2-4a51-a176-064eb78f41ef"/>
+
+
+  </li>
 </ul>
+```sh
+$ docker build -t nodejs_hello-world .
 
+```
+<img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/2e6b1b92-0cf0-4dd2-8219-246213e544af"/>
 
+```sh
+$ docker images
+```
+<img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/4eb39c66-f755-4ccb-8dc8-5f114887e20e"/>
+<br>
+<img src="https://github.com/RevoU-FSSE-2/week-6-enkod-id/assets/18107640/5671ff78-8183-4adf-bb93-491c92fa8ea9"/>
+
+congratz
